@@ -7,6 +7,7 @@ library IterableMapping {
     KeyFlag[] keys;
     uint size;
   }
+  
   struct IndexValue { uint keyIndex; uint value; }
   struct KeyFlag { address key; bool deleted; }
   function insert(itmap storage self, address key, uint value) public returns (bool replaced)
