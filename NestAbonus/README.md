@@ -140,4 +140,4 @@ returned parameter | type | description
 ---| uint256 | bonus pool  amount (real-time data) 
 ```
 function getETHNum(address token) public view returns (uint256) 
-```
+```
